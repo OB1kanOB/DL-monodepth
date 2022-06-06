@@ -45,8 +45,7 @@ def parse_args():
                             "mono+stereo_1024x320",
                             "monoKittiSelf",
                             "monoNYU",
-                            "monoNYUdepth",
-                            "monoMix"])
+                            "monoNYUdepth"])
     parser.add_argument('--ext', type=str,
                         help='image extension to search for in folder', default="jpg")
     parser.add_argument("--no_cuda",
